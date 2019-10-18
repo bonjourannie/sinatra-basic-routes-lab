@@ -3,6 +3,6 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   
   get '/name' do 
-    "ANNIE"
+    "My name is Kiki"
   end
 end
